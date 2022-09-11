@@ -1,0 +1,41 @@
+.App {
+  width: 600px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bangers&family=Josefin+Sans&family=Montserrat&family=Open+Sans&display=swap');
+/* .root {
+  --back_color: #0c4a6e;
+  --text_color: #fcd34d;
+} */
+/* body {
+  /* background-color: #bbf7d0; */
+
+h1,
+h4 {
+  padding: "1rem";
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: small;
+}
+button:hover{
+  background-color: #38bdf8;
+}
+
+li {
+  list-style: none;
+  border: 1px #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: inset;
+  border-style: groove;
+  /* font-size: larger; */
+  margin: 1rem;
+  padding: 1rem;
+  /* font-family: "Roboto Mono", monospace; */
+  width: 70%;
+}
