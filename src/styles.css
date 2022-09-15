@@ -24,18 +24,14 @@ button {
   font-size: small;
 }
 button:hover{
-  background-color: #38bdf8;
+  background-color: #fde047;
 }
 
 li {
-  list-style: none;
-  border: 1px #e5e7eb;
-  border-radius: 0.5rem;
-  box-shadow: inset;
-  border-style: groove;
-  /* font-size: larger; */
-  margin: 1rem;
-  padding: 1rem;
-  /* font-family: "Roboto Mono", monospace; */
-  width: 70%;
+  listStyle: "none";
+  padding: "1rem";
+  border: "1px solid #D1D5DB";
+  width: "70%";
+  margin: "1rem 0rem";
+  borderRadius: "0.5rem"; 
 }

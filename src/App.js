@@ -25,7 +25,18 @@ const ourBooks = {
       bookName: "THE HEADSPACE GUIDE TO MEDITATION & MINDFULNESS",
       author: "Andy Puddicombe",
       rating: "5/5"
+    },
+    {
+      bookName: "Zen: The Art of Simple Living",
+      author: "Shunmyō Masuno",
+      rating: "5/5"
+    },
+    {
+      bookName: "Think Like a Monk",
+      author: " Jay Shetty",
+      rating: "5/5"
     }
+
  
    ],
 
@@ -57,7 +68,7 @@ export default function App() {
     <div className="App">
       <h1>
         {" "}
-        <span>📚</span> Book Adviser
+        <span>📗</span> Books Collection
       </h1>
       <h4>Check Out these Books. Select a genere to get started</h4>
       <div>
@@ -72,12 +83,12 @@ export default function App() {
       </div>
       <hr />
       <div style={{ textAlign: "left" }}>
-        <ul style={{ paddingInlineStart: "0" }}>
+        <ul style={{ paddingInlineStart: "3" }}>
           {ourBooks[genere].map((book) => (
             <li key={book.bookName}>
               {" "}
-              <div style={{ fontSize: "larger" }}>{book.bookName}</div>
-              {/* <hr /> */}
+              <div style={{ fontSize: "x-large" }}>{book.bookName}</div>
+              
               <div style={{ fontSize: "smaller" }}>
                 {name}
                 {book.author}
