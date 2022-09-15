@@ -68,7 +68,7 @@ export default function App() {
     <div className="App">
       <h1>
         {" "}
-        <span>📗</span> Books Collection
+        <span>📗</span> Books Recommendation
       </h1>
       <h4>Check Out these Books. Select a genere to get started</h4>
       <div>
