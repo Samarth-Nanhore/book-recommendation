@@ -1,11 +1,10 @@
-<h1>markNine: "book collection" App</h1>
-<h2>site link:  </h2>
+<h1>markNine: "book recommendation" App</h1>
+<h2>site link: https://recommendation-books.netlify.app/  </h2>
 
 ####Tech Stack:
 
-- Vanilla.js
-- API- https://api.funtranslations.com/translate/groot.json
+- React.js
+- Cascading Style Sheets
 
-<p>groot is the one of the most awesome charachter of Guardians of the Galaxy,
- Use the translator to convert your text from English to groot language.</p>
+<p>A simple yet usefull application to recommend books from my favourite author.</p>
 =======
